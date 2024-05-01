@@ -6,7 +6,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 
 # reading the data from excel file
-df = pd.read_excel("C:\\Users\\Dell\\Desktop\\Capstone-2024\\Adidas.xlsx")
+df = pd.read_excel("Adidas.xlsx")
 st.set_page_config(layout="wide")
 link = '[©Developed by Akshay](https://www.linkedin.com/in/akshay-kumar2003/)'
 st.sidebar.markdown(link, unsafe_allow_html=True)
